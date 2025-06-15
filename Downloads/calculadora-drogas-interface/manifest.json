@@ -1,0 +1,9 @@
+{
+  "name": "Calculadora de Drogas",
+  "short_name": "Drogas Emergência",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": []
+}
