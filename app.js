@@ -1,0 +1,1 @@
+// Arquivo JS simulado - React build irá aqui
