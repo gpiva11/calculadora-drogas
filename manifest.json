@@ -1,16 +1,9 @@
-
 {
-  "name": "Calculadora de Drogas Críticas",
-  "short_name": "DrogasCríticas",
-  "start_url": ".",
+  "name": "Calculadora de Drogas",
+  "short_name": "Drogas",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0f172a",
-  "icons": [
-    {
-      "src": "logo_drogas.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": []
 }
