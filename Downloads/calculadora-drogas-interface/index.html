@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculadora de Drogas em Emergência</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
   <script defer src="app.js"></script>
 </head>
 <body>
@@ -24,20 +24,20 @@
 
       <div class="droga">
         <h3>Noradrenalina</h3>
-        <p>0,1–3 mcg/kg/min</p>
+        <p>Dosagem: 0,1–3 mcg/kg/min</p>
         <button onclick="calcDose(0.1, 3, 'norad')">Calcular</button>
         <div id="norad"></div>
       </div>
 
       <div class="droga">
         <h3>Dobutamina</h3>
-        <p>2–20 mcg/kg/min</p>
+        <p>Dosagem: 2–20 mcg/kg/min</p>
         <button onclick="calcDose(2, 20, 'dobu')">Calcular</button>
         <div id="dobu"></div>
       </div>
     </section>
 
-    <section id="intub" class="hidden">
+    <section id="intub" class="oculto">
       <h3>7 Passos da Intubação Segura</h3>
       <ol>
         <li>Preparação</li>
@@ -46,22 +46,23 @@
         <li>Indução</li>
         <li>Paralisia</li>
         <li>Intubação</li>
-        <li>Confirmação e pós</li>
+        <li>Confirmação e pós-intubação</li>
       </ol>
     </section>
 
-    <section id="refs" class="hidden">
+    <section id="refs" class="oculto">
       <h3>Referências</h3>
       <ul>
         <li>UpToDate</li>
         <li>Diretrizes Emergência AMIB</li>
-        <li>Sociedade Brasileira Emergência</li>
+        <li>Sociedade Brasileira de Medicina de Emergência</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    © 2025 Gabriel Piva
+    <p>Referências: UpToDate, Diretrizes de Medicina de Emergência</p>
+    <p>© 2025 Gabriel Piva</p>
   </footer>
 </body>
 </html>
